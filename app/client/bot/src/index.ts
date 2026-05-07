@@ -5,7 +5,6 @@ class SmartAutomationBot {
     this.sdk = new DatabagSDK(apiKey);
     this.bot = null;
   }
-
   async initialize() {
     try {
       console.log('Initializing Databag Automation...\n');
